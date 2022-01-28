@@ -14,7 +14,7 @@ All folder(workspaces) are in /home directory
   Contains mapping, planning and controller
 
 
-## How To Run Simulation
+## How To Run Hardware
 
 ### Terminal 1:-
 ```bash
