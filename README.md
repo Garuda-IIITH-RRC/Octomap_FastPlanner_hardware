@@ -18,7 +18,7 @@ All folder(workspaces) are in /home directory
 
 ### Terminal 1:-
 ```bash
-cd catkin_ws\
+cd catkin_ws/
 source devel/setup.bash
 roslaunch mavros px4.launch
 ```
