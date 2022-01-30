@@ -50,9 +50,8 @@ rosrun FastPlannerOctomap Controller
 ~deepak gif file
 
 ### Youtube links:-
-https://www.youtube.com/watch?v=_OIfPdrSIQQ
-https://www.youtube.com/watch?v=qKHB9nG-Lkg
-[![](https://img.youtube.com/vi/_OIfPdrSIQQ/0.jpg)](https://www.youtube.com/watch?v=_OIfPdrSIQQ)
+
+[![](https://img.youtube.com/vi/_OIfPdrSIQQ/0.jpg)](https://www.youtube.com/watch?v=_OIfPdrSIQQ)\
 [![](https://img.youtube.com/vi/qKHB9nG-Lkg/0.jpg)](https://www.youtube.com/watch?v=qKHB9nG-Lkg)
 
 Reference:- https://github.com/deepak-1530/FastPlannerOctomap
