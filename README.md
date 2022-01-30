@@ -47,8 +47,9 @@ source devel/setup.bash
 rosrun FastPlannerOctomap Controller
 ```
 ### Hardware demo:-
-![]()
-![]()
+![](https://github.com/Garuda-IIITH-RRC/Octomap_FastPlanner_hardware/blob/master/FastPlanner_OctomapAvoidance.gif)\
+![](https://github.com/Garuda-IIITH-RRC/Octomap_FastPlanner_hardware/blob/master/GardenAvoidance.gif)
+
 
 ### Youtube links:-
 
