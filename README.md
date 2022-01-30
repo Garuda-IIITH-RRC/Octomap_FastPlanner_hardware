@@ -47,7 +47,8 @@ source devel/setup.bash
 rosrun FastPlannerOctomap Controller
 ```
 ### Hardware demo:-
-~deepak gif file
+![]()
+![]()
 
 ### Youtube links:-
 
