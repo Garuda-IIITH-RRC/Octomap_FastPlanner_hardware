@@ -18,30 +18,16 @@ All folder(workspaces) are in /home directory
 
 ### Terminal 1:-
 ```bash
-cd PX4-Autopilot/
-source ~/catkin_ws/devel/setup.bash
-source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/px4_sitl_default
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
-
-roslaunch px4 mavros_posix_sitl.launch
+cd catkin_ws\
+source devel/setup.bash
+roslaunch mavros px4.launch
 ```
-
-In same terminal type
-```bash
-commander takeoff
-```
-
-It will launch Gazebo, World, Mavros, PX4, Quadcopter(iris_depth_camera)\
-You can choose world from PX4-Autopilot/Tools/sitl_gazebo/worlds\
-Choose quadcopter from PX4-Autopilot/Tools/sitl_gazebo/models\
-Make changes into mavros_posix_sitl.launch
 
 ### Terminal 2:-
 ```bash
 cd fastplanner_ws/
 source devel/setup.bash
-roslaunch FastPlannerOctomap MappingSim.launch
+roslaunch FastPlannerOctomap MappingDrone.launch
 ```
 Give goal location using 2D Nav Goal option in rviz
 
@@ -60,7 +46,13 @@ cd fastplanner_ws/
 source devel/setup.bash
 rosrun FastPlannerOctomap Controller
 ```
-### Simulation demo:-
-<img src="https://github.com/Garuda-IIITH-RRC/Octomap_FastPlanner_simulation/blob/main/fast_sim.gif" width="1000" height="300">
+### Hardware demo:-
+~deepak gif file
+
+### Youtube links:-
+https://www.youtube.com/watch?v=_OIfPdrSIQQ
+https://www.youtube.com/watch?v=qKHB9nG-Lkg
+[![](https://img.youtube.com/vi/_OIfPdrSIQQ/0.jpg)](https://www.youtube.com/watch?v=_OIfPdrSIQQ)
+[![](https://img.youtube.com/vi/qKHB9nG-Lkg/0.jpg)](https://www.youtube.com/watch?v=qKHB9nG-Lkg)
 
 Reference:- https://github.com/deepak-1530/FastPlannerOctomap
